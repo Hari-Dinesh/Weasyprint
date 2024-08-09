@@ -1,0 +1,1149 @@
+{
+    "password": "01-01-1970",
+    "replaceVariables": {
+      "layoutCode": "layout1",
+      "patientLastName": "Female patient",
+      "patientFirstName": "Wsdi",
+      "patientName": "Wsdi Female patient",
+      "password": "01-01-1970",
+      "accessionId": "LAQ1-729444",
+      "patientGender": "female",
+      "patientMobileNumber": "(999) 999-9999",
+      "patientAge": 54,
+      "patientAddress": "EL PASO, , Canutillo, Texas, 79835",
+      "patientId": 1268,
+      "sampleCollectionTime": "12:05",
+      "patientEmailId": "wsdifemalepatient@gmail.com",
+      "sampleResult": {
+        "barcode": {
+          "value": "LAQ1-729444"
+        },
+        "TESTINGPDF  Qualitative 1": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 2": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 3": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 4": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 5": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 6": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 7": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 8": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 9": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 10": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 11": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 12": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 13": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 14": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 15": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 16": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 17": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 18": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 19": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 20": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 21": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 22": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 23": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 24": {
+          "value": "NEGATIVE"
+        },
+        "TESTINGPDF  Qualitative 25": {
+          "value": "POSITIVE"
+        },
+        "TESTINGPDF  Qualitative 26": {
+          "value": "POSITIVE"
+        }
+      },
+      "sampleType": "Blood",
+      "orderId": "GK1513",
+      "sampleResultColor": "000000",
+      "finalResultObject": [
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 1",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 2",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 3",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 4",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 5",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 6",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 7",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 8",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 9",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 10",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 11",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 12",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 13",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 14",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 15",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 16",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 17",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 18",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 19",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 20",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 21",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 22",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 23",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "NEGATIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#F45863",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "NEGATIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 24",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "NEGATIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 25",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        },
+        {
+          "testName": "qual lay1",
+          "resultValue": "POSITIVE",
+          "rule": [
+            
+          ],
+          "fontFormat": {
+            "color": "#5a9759ff",
+            "fontWeight": "normal",
+            "qualitativeResultValue": "POSITIVE",
+            "borderColor": "#000000"
+          },
+          "biomarkerName": "TESTINGPDF  Qualitative 26",
+          "biomarkerDescription": null,
+          "reportFormat": "Qualitative",
+          "qualitativeResultValue": "POSITIVE",
+          "biomarkerNote": "",
+          "expectedResults": ""
+        }
+      ],
+      "testDetails": {
+        "id": 112,
+        "name": "qual lay1",
+        "code": "LAQ1",
+        "sampleType": "blood",
+        "sampleCollectionDeviceName": "tube",
+        "sampleQuantity": "1234",
+        "description": null,
+        "createdBy": 2,
+        "isIntakeFormRequired": false,
+        "formId": null,
+        "isStateReportingRequired": false,
+        "stateReporting": null,
+        "isBulkImportRequired": false,
+        "isActive": true,
+        "biomarkerIds": [
+          239,
+          240,
+          241,
+          243,
+          242,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ],
+        "status": "completed",
+        "chatId": null,
+        "lastBarcodeCount": null,
+        "resultingMode": "manual upload",
+        "processOverView": null,
+        "kitComponents": null,
+        "kitImages": null,
+        "questions": null,
+        "videoUrl": null,
+        "kitRedirectUrl": null,
+        "normalPdfTemplatePath": null,
+        "abnormalPdfTemplatePath": null,
+        "testLayoutDetails": [
+          {
+            "layout": "layout1",
+            "disclaimer": "<div><p>Methodology: Advanced Genomics Laboratory RPP (Respiratory Pathogen Panel) test is a laboratory developed test. It is a real time RT¬PCR which specifically detects pathogens listed on the report in patient's specimens. Patient's nasopharyngeal swab is treated to extract RNA/DNA and processed to detect the presence of various respiratory pathogens listed on the panel using specific primers on a real time PCR machine. The results are compared to contrive positive controls, Internal controls, and Negative Template Controls (Quality Control Samples) run alongside the patient’s samples for the diagnosis of respiratory infections. </p><p>Limitations: All molecular tests have limitations. If a patient is found 'NOT DETECTED or NEGATIVE' implies that he/she is not infected with the list of pathogens mentioned in the report at the sample collection time. On the other hand, this does not discount the fact that the patient having symptoms before this test may be due to the pathogens beyond the scope of Advanced Genomics Laboratory RPP Panel. </p><p>Laboratory Statement: This test was performed, validated and performance characteristics have been determined by Advanced Genomics, 10750 Hammerly Blvd #120, Houston, TX 77043, CLIA(#45D0292474), Laboratory Director, Dr. Alexis McBrayer. This test is used for clinical purposes (see Eligibility for testing). Its use should not be regarded as investigational or for research and tests only the listed pathogens on the report. Hence, we strongly recommend undergoing this test when the patient experiences symptoms consistent with infectious respiratory disease etiology with the clinician's advice and prescription. This laboratory is certified under Clinical Laboratory Improvements and Amendments of 1988 (CLIA 88) as qualified to perform high complexity clinical laboratory testing. This test has not been cleared or approved by the FDA. The FDA has determined that such approval is not necessary, provided that the laboratory both (1) maintains its good standing as a clinical testing laboratory with all mandatory accrediting bodies, and (2) continually demonstrates that its testing protocols and procedures achieve a high degree of analytical accuracy. Medication Recommendations/pharmacy guidance are given for information purpose only. The final prescription is given by the physician will be given based on patient’s clinical history and correlation. Advanced Genomics Laboratory is not responsible for adverse drug reactions if the patient takes medications based on the guidelines provided without physician's prescription. Final medications are under physician's discretion.</p><p>Eligibility for Testing: This test is prescription use only and is limited to patients suspected of respiratory infections by their healthcare provider. The eligibility determination ultimately rests on the clinician's judgment. </p><p>Conduct of the Test: This test is performed under strict compliance and guidelines of Advanced Genomics Laboratory R&D team, including the use of instruments, reagents, and other recommended procedures. This includes the safety protocols where all laboratory personnel are appropriately trained in RT qPCR techniques and use appropriate laboratory and personal protective equipment when handling this kit/test and use this test in accordance with the authorized labeling. </p><p>Result Reports for Healthcare Providers and Patients: We have a process for reporting test results to healthcare providers as appropriate. Result reports will be provided to healthcare providers and patients. </p><p>Performance Data and Reporting: We collect information on the performance of the test and report any suspected occurrence of false positive or false negative results and significant deviations from the established performance characteristics of the test of which we become aware to concerned authorities. </p><p></p></div>",
+            "biomarkerObj": [
+              {
+                "title": "",
+                "biomarkerIds": [
+                  239,
+                  240,
+                  241,
+                  243,
+                  242,
+                  244,
+                  245,
+                  246,
+                  247,
+                  248,
+                  249,
+                  250,
+                  251,
+                  252,
+                  253,
+                  254,
+                  255,
+                  256,
+                  257,
+                  258,
+                  259,
+                  260,
+                  261,
+                  262,
+                  263,
+                  264
+                ],
+                "biomarkerDetails": [
+                  {
+                    "id": 239,
+                    "name": "TESTINGPDF  Qualitative 1",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.469Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 240,
+                    "name": "TESTINGPDF  Qualitative 2",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.501Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 241,
+                    "name": "TESTINGPDF  Qualitative 3",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.541Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 242,
+                    "name": "TESTINGPDF  Qualitative 4",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.561Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 243,
+                    "name": "TESTINGPDF  Qualitative 5",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.594Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 244,
+                    "name": "TESTINGPDF  Qualitative 6",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.633Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 245,
+                    "name": "TESTINGPDF  Qualitative 7",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.648Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 246,
+                    "name": "TESTINGPDF  Qualitative 8",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.668Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 247,
+                    "name": "TESTINGPDF  Qualitative 9",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.682Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 248,
+                    "name": "TESTINGPDF  Qualitative 10",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.690Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 249,
+                    "name": "TESTINGPDF  Qualitative 11",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.722Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 250,
+                    "name": "TESTINGPDF  Qualitative 12",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.743Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 251,
+                    "name": "TESTINGPDF  Qualitative 13",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.749Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 252,
+                    "name": "TESTINGPDF  Qualitative 14",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.765Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 253,
+                    "name": "TESTINGPDF  Qualitative 15",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.772Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 254,
+                    "name": "TESTINGPDF  Qualitative 16",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.817Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 255,
+                    "name": "TESTINGPDF  Qualitative 17",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.819Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 256,
+                    "name": "TESTINGPDF  Qualitative 18",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.833Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 257,
+                    "name": "TESTINGPDF  Qualitative 19",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.851Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 258,
+                    "name": "TESTINGPDF  Qualitative 20",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.872Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 259,
+                    "name": "TESTINGPDF  Qualitative 21",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.887Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 260,
+                    "name": "TESTINGPDF  Qualitative 22",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.902Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 261,
+                    "name": "TESTINGPDF  Qualitative 23",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.919Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 262,
+                    "name": "TESTINGPDF  Qualitative 24",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.932Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 263,
+                    "name": "TESTINGPDF  Qualitative 25",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.955Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  },
+                  {
+                    "id": 264,
+                    "name": "TESTINGPDF  Qualitative 26",
+                    "isActive": true,
+                    "code": null,
+                    "sampleType": "blood",
+                    "sampleCollectionDeviceName": "tube",
+                    "description": null,
+                    "reportFormat": "Qualitative",
+                    "status": "completed",
+                    "createdAt": "2024-08-09T06:22:05.982Z",
+                    "createdBy": null,
+                    "isConfigurationRequired": false
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "icdCodes": [
+          
+        ],
+        "isIcdCodeRequired": false,
+        "createdAt": "2024-08-09T06:23:01.727Z",
+        "updatedAt": "2024-08-09T06:23:43.459Z",
+        "attachments": [
+          
+        ],
+        "createdByDetails": {
+          "id": 2,
+          "prefix": null,
+          "suffix": null,
+          "firstName": "super",
+          "middleName": "",
+          "lastName": "super",
+          "mobileNumber": "0000000000",
+          "secondaryMobileNumber": null,
+          "mobileNumberCode": "super",
+          "faxNumber": "",
+          "addressLine1": "plot no:30g,xyz colony",
+          "addressLine2": "",
+          "dateOfBirth": null,
+          "zipcode": "99821",
+          "state": "alaska",
+          "city": "auke bay",
+          "emailId": "superadmin@gmail.com",
+          "npiNumber": "",
+          "pTanNumber": null,
+          "specialityType": null,
+          "tinNumber": null,
+          "designation": "md",
+          "gender": null,
+          "roleId": 1,
+          "roleObj": {
+            "id": 1,
+            "title": "Super Admin",
+            "code": "superAdmin",
+            "isSdiRole": true
+          },
+          "isSdiUser": true,
+          "isPhysician": false,
+          "taxonomyDetails": null,
+          "isSameAddress": null,
+          "isActive": true,
+          "isEmailVerified": true,
+          "isDeleted": false,
+          "createdBy": 1,
+          "isHybrid": false,
+          "createdAt": "2022-09-29T20:14:23.529Z",
+          "updatedAt": "2022-10-01T07:31:27.488Z"
+        }
+      },
+      "testName": "qual lay1",
+      "testDescription": "-",
+      "testDisclaimer": "<div><p>Methodology: Advanced Genomics Laboratory RPP (Respiratory Pathogen Panel) test is a laboratory developed test. It is a real time RT¬PCR which specifically detects pathogens listed on the report in patient's specimens. Patient's nasopharyngeal swab is treated to extract RNA/DNA and processed to detect the presence of various respiratory pathogens listed on the panel using specific primers on a real time PCR machine. The results are compared to contrive positive controls, Internal controls, and Negative Template Controls (Quality Control Samples) run alongside the patient’s samples for the diagnosis of respiratory infections. </p><p>Limitations: All molecular tests have limitations. If a patient is found 'NOT DETECTED or NEGATIVE' implies that he/she is not infected with the list of pathogens mentioned in the report at the sample collection time. On the other hand, this does not discount the fact that the patient having symptoms before this test may be due to the pathogens beyond the scope of Advanced Genomics Laboratory RPP Panel. </p><p>Laboratory Statement: This test was performed, validated and performance characteristics have been determined by Advanced Genomics, 10750 Hammerly Blvd #120, Houston, TX 77043, CLIA(#45D0292474), Laboratory Director, Dr. Alexis McBrayer. This test is used for clinical purposes (see Eligibility for testing). Its use should not be regarded as investigational or for research and tests only the listed pathogens on the report. Hence, we strongly recommend undergoing this test when the patient experiences symptoms consistent with infectious respiratory disease etiology with the clinician's advice and prescription. This laboratory is certified under Clinical Laboratory Improvements and Amendments of 1988 (CLIA 88) as qualified to perform high complexity clinical laboratory testing. This test has not been cleared or approved by the FDA. The FDA has determined that such approval is not necessary, provided that the laboratory both (1) maintains its good standing as a clinical testing laboratory with all mandatory accrediting bodies, and (2) continually demonstrates that its testing protocols and procedures achieve a high degree of analytical accuracy. Medication Recommendations/pharmacy guidance are given for information purpose only. The final prescription is given by the physician will be given based on patient’s clinical history and correlation. Advanced Genomics Laboratory is not responsible for adverse drug reactions if the patient takes medications based on the guidelines provided without physician's prescription. Final medications are under physician's discretion.</p><p>Eligibility for Testing: This test is prescription use only and is limited to patients suspected of respiratory infections by their healthcare provider. The eligibility determination ultimately rests on the clinician's judgment. </p><p>Conduct of the Test: This test is performed under strict compliance and guidelines of Advanced Genomics Laboratory R&D team, including the use of instruments, reagents, and other recommended procedures. This includes the safety protocols where all laboratory personnel are appropriately trained in RT qPCR techniques and use appropriate laboratory and personal protective equipment when handling this kit/test and use this test in accordance with the authorized labeling. </p><p>Result Reports for Healthcare Providers and Patients: We have a process for reporting test results to healthcare providers as appropriate. Result reports will be provided to healthcare providers and patients. </p><p>Performance Data and Reporting: We collect information on the performance of the test and report any suspected occurrence of false positive or false negative results and significant deviations from the established performance characteristics of the test of which we become aware to concerned authorities. </p><p></p></div>",
+      "labCliaNumber": "05D2274791",
+      "labExternalId": "CLF-90008537",
+      "labAddress": "12636 Hoover Street, , Garden grove, California, 92841",
+      "labNumber": "(714) 868-5000",
+      "labEmailId": "support@wisdi.org",
+      "physicianLastName": "Patel",
+      "physicianFirstName": "Kuntal",
+      "physicianName": "Kuntal Patel",
+      "physicianFaxNumber": "-",
+      "physicianAddress": "142 E MAIN ST, , SPARTANBURG, SC, 29306",
+      "physicianNpiNumber": "1467826875",
+      "physicianMobileNumber": "(864) 237-5501",
+      "reportTemplatePath": null,
+      "labDirector": "Dr. fan M.d",
+      "sampleReceivedTime": "06:39",
+      "sampleReportedTime": "",
+      "sampleReceivedDate": "08-09-2024",
+      "patientDateOfBirth": "01-01-1970",
+      "sampleCollectionDate": "08-09-2024",
+      "sampleReportedDate": "08-09-2024",
+      "themeColor": "#f17013ff",
+      "logo": "https://tericsoftsdigkv2.blob.core.windows.net/lab-attachments/1712121115/logo/52fc2080-fca4-444b-b1f5-510520886a5c-1.jpeg"
+    },
+    "sampleId": 1594,
+    "orderId": 1513,
+    "source": "web",
+    "sessionValueId": 942,
+    "testId": 112,
+    "testCode": "LAQ1",
+    "patientId": 1268,
+    "shouldReply": true,
+    "queueName": "pdfgeneratedresponsejobs",
+    "themeColor": "#f17013ff",
+    "logo": "1712121115/logo/52fc2080-fca4-444b-b1f5-510520886a5c-1.jpeg"
+  }

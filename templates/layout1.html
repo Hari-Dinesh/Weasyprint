@@ -1,0 +1,38 @@
+<div class="table-container">
+    {% if data.replaceVariables.finalResultObject is defined and data.replaceVariables.finalResultObject|length > 0 %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Test Name</th>
+                <th>Your Result</th>
+                {% if data.replaceVariables.finalResultObject[0].reportFormat == "Quantitative" %}
+                    <th>Units</th>
+                    <th>Reference Range</th>
+                {% endif %}
+                {% if data.replaceVariables.finalResultObject[0].reportFormat == "Qualitative" %}
+                    <th>Expected Result</th>
+                {% endif %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for table in data.replaceVariables.finalResultObject %}
+            <tr>
+                <td>{{ table.biomarkerName }}</td>
+                <td style="color: {{ table.fontFormat.color }}; font-weight: {{ table.fontFormat.fontWeight }}">
+                    {{ table.qualitativeResultValue }}
+                </td>
+                {% if table.reportFormat == "Quantitative" %}
+                    <td>{{ table.units }}</td>
+                    <td>{{ table.referenceRange }}</td>
+                {% endif %}
+                {% if table.reportFormat == "Qualitative" %}
+                    <td>{{ table.expectedResults }}</td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>No data available for this table.</p>
+    {% endif %}
+</div>

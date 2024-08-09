@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Report</title>
+    <style>
+        @page {
+            margin: 3px;
+            margin-top: 420px;
+            margin-bottom: 130px;
+        @top-center {
+            content: element(pageHeader);
+            width: 100%;
+            text-align: center;
+        }
+        @bottom-center {
+            content: element(pageFooter);
+            width: 100%;
+            text-align: center;
+        }
+     }
+        #pageHeader{
+            position: running(pageHeader);
+        }
+        #pageFooter {
+            position: running(pageFooter);
+
+        }
+        
+        .address {
+           background-color: {{data.themeColor}};
+            padding: 10px 20px;
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 14.4px;
+            width: 100%;
+            margin-bottom:10px;
+        }
+       
+        .footer {
+            margin-left: -8px !important;
+        }
+        .disclaimer {
+            display: flex;
+            justify-content: space-between;
+            font-size:10px;
+        }
+
+        .disclaimer div:first-child {
+            width: 80%;
+        }
+
+        .disclaimer div:last-child {
+            width: 20%;
+        }
+
+        .disclaimer div p {
+            margin: 2px 0 0 0;
+            margin-left: 17px;
+        }
+
+        .disclaimer div:last-child p {
+            text-align: right;
+            margin-right:22px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 845px;
+        }
+        .content {
+            margin: 10px 30px;
+        }
+        .topHeader{
+          padding-right:50px;
+        }
+        .header {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .title {
+            color: white;
+            display: flex;
+            
+            padding-left: 10px;
+            align-items: center;
+            flex-grow: 1;
+            height: 30px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 17px;
+            background: {{data.themeColor}};
+        }
+        .logo {
+        width: 65px;
+        height: 30px;
+      }
+
+      .logo > img {
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+      }
+      .details {
+            width: 240px;
+            border: 1px solid #e5e5e5;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .details div:first-child {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #e5e5e5;
+            background-color: #fffbf9;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 14.4px;
+        }
+
+        .details div:last-child {
+            padding: 0 10px;
+        }
+
+        .details div:last-child span {
+            color: #8b8e90;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14.4px;
+        }
+
+        .details div p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14.4px;
+        }
+
+        .details div:last-child p {
+            margin: 10px 0;
+        }
+        .labInfo {
+            display: flex;
+            justify-content: space-between;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .labInfo p{
+                      margin:10px 0;
+
+        }
+        .reportTitle {
+            text-align: center;
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 0px;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0;
+            border-top: 2px solid #8b8e90;
+            border-bottom: 2px solid #8b8e90;
+        }
+        
+        .table-container {
+            border-radius: 8px; /* Adjust the radius as needed */
+            overflow: hidden; /* Ensures the rounded corners are applied to the content */
+            border: 1px solid #ddd; /* Border around the container */
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        .table th, .table td {
+            border: 1px solid #ddd; /* Light gray border */
+            padding: 10px; /* Add padding to cells */
+            text-align: left; /* Align text to the left */
+        }
+
+        .table th {
+            background-color: #f2f2f2; /* Light gray background for header cells */
+        }
+        .tableName{
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .labInfo p:last-child {
+            color: #631211;
+        }
+        .space{
+          margin-right:5px;
+          font-size: 10px;
+          font-weight: 600;
+        }
+        .themeCOlor{
+            color: {{ data.themeColor }};
+        }
+        .details-head{
+            font-size: 12px;
+            font-weight: 700;
+        }
+        .d-flex{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div id="pageHeader">
+            <div class="container">
+                <div class="content">
+                    <div class="topHeader">
+                        <div class="header">
+                            <div class="title">Test Report</div>
+                            <div class="logo">
+                                <img width="60px" height="28px" src="{{data.replaceVariables.logo}}" />
+                            </div>
+                        </div>
+                        <div class="labInfo">
+                            <p>Lab Director: {{data.replaceVariables.labDirector}}</p>
+                            <p>Order No: {{data.replaceVariables.orderId}}</p>
+                        </div>
+                        <div class="info">
+                            <div class="details">
+                                <div class="details-head">PATIENT INFORMATION</div>
+                                <div>
+                                    <p><span class="space">Name:</span>{{data.replaceVariables.patientName}}</p>
+                                    <p><span class="space">PatientId:</span> {{data.replaceVariables.patientId}}</p>
+                                    <p><span class="space">Gender:</span> {{data.replaceVariables.patientGender}}</p>
+                                    <p><span class="space">Age:</span> {{data.replaceVariables.patientAge}}</p>
+                                    <p><span class="space">DOB:</span> {{data.replaceVariables.patientDateOfBirth}}</p>
+                                    <p><span class="space">Mobile No:</span> {{data.replaceVariables.patientMobileNumber}}</p>
+                                    <p><span class="space">Email ID:</span> {{data.replaceVariables.patientEmailId}}</p>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <div class="details-head">ORDERING PHYSICIAN</div>
+                                <div>
+                                    <p><span class="space">Name:</span>{{data.replaceVariables.physicianName}}</p>
+                                    <p><span class="space">NPI Number:</span> {{data.replaceVariables.physicianNpiNumber}}</p>
+                                    <p><span class="space">Mobile No:</span> {{data.replaceVariables.physicianMobileNumber}}</p>
+                                    <p><span class="space">Fax No:</span> {{data.replaceVariables.physicianFaxNumber}}</p>
+                                    <p><span class="space">Address:</span> {{data.replaceVariables.physicianAddress}}</p>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <div class="details-head">SPECIMEN INFORMATION</div>
+                                <div>
+                                    <p><span class="space">AccessionId:</span> {{data.replaceVariables.accessionId}}</p>
+                                    <p><span class="space">Specimen Type:</span> {{data.replaceVariables.sampleType}}</p>
+                                    <p><span class="space">Time collected:</span> {{data.replaceVariables.sampleCollectionTime}}</p>
+                                    <p><span class="space">Date collected:</span> {{data.replaceVariables.sampleCollectionDate}}</p>
+                                    <p><span class="space">Date received:</span> {{data.replaceVariables.sampleReceivedDate}}</p>
+                                    <p><span class="space">Date reported:</span> {{data.replaceVariables.sampleReportedDate}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h1 class="reportTitle">{{data.replaceVariables.testName}}</h1>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+
+    <div id="pageFooter">
+        <div class="footer">
+            <p class="address" >
+                Advanced Genomics Innovative Diagnostics, 10750 Hammerly Blvd #120, Houston, TX 77043 | Tel: (281) 888-5158 | CLIA: 45D0292474
+            </p>
+
+            <div class="disclaimer">
+                <div>
+                    <p>
+                        This document contains private and confidential health information
+                        protected by state and federal law
+                    </p>
+                    <p>
+                        All rights reserved If you have received this document in error,
+                        please call (714)868-5000.
+                    </p>
+                </div>
+                <div>
+                    <p>All right reserved</p>
+                    <p>Doc. Ver. 1.0</p>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+
+    <div style="margin-left:25px;">
+        {% if data.replaceVariables.finalResultObject is defined %}
+            {% if data.replaceVariables.layoutCode == "layout1" %}
+                {% include 'layout1.html' %}
+            {% endif %}
+            
+            {% if data.replaceVariables.layoutCode == "layout2" %}
+                {% include 'layout2.html' %}
+            {% endif %}
+
+            {% if data.replaceVariables.layoutCode == "layout3" %}
+                {% include 'layout3.html' %}
+            {% endif %}
+            
+        {% endif %}
+
+
+    </div>
+    
+
+    <div style="font-size: 12px; margin-left: 25px;">
+        <h3>Disclaimer:</h3>
+        {{data.replaceVariables.testDetails.testLayoutDetails[0].disclaimer}}
+    </div>
+    <p style="
+                text-align: center;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 14.4px;
+                margin-top: 30px;
+              ">
+                END OF REPORT
+            </p>
+
+   
+</body>
+</html>

@@ -1,0 +1,39 @@
+{% for table in data.replaceVariables.finalResultObject %}
+<h3 class="tableName">{{ table.tableName }}</h3>
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Test Name</th>
+                <th>Your Result</th>
+                {% if table.rows and table.rows[0].reportFormat == "Quantitative" %}
+                    <th>Units</th>
+                    <th>Reference Range</th>
+                {% endif %}
+                {% if table.rows and table.rows[0].reportFormat == "Qualitative" %}
+                    <th>Expected Result</th>
+                {% endif %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in table.rows %}
+               <tr class="">
+                    <td>{{ row.biomarkerName }}</td>
+                    <td style="{% if row.fontFormat is defined %}color: {{ row.fontFormat.color }}; font-weight: {{ row.fontFormat.fontWeight }}{% endif %}">{{ row.qualitativeResultValue }}</td>
+                    {% if row.reportFormat == "Quantitative" %}
+                        {% if row.rule and row.rule|length > 0 %}
+                            <td>{{ row.rule[0].units }}</td>
+                        {% else %}
+                            <td>N/A</td>
+                        {% endif %}
+                        <td>{{ reference_range }}</td>
+                    {% endif %}
+                    {% if row.reportFormat == "Qualitative" %}
+                        <td>{{ row.expectedResults }}</td>
+                    {% endif %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endfor %}
