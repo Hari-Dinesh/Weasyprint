@@ -1,45 +1,48 @@
 {% for table in data.replaceVariables.finalResultObject %}
-    <div class="d-flex">
-        <!-- Detected Section -->
-        <div class="table-container">
-            <table class="table">
-                <thead>
-                    <h3 class="tableName">{{ table.tableName }}-detected</h3>
-                </thead>
-                <tbody>
-                    {% set detected = false %}
-                    {% for row in table.rows %}
-                        {% if row.qualitativeResultValue == "DETECTED" %}
-                            <p style="font-size: 14px; font-weight: 400;">*{{ row.biomarkerName }}</p>
-                            {% set detected = true %}
-                        {% endif %}
-                    {% endfor %}
-                    {% if detected == true%}
-                        <p style="font-size: 14px; font-weight: 400;">No detection</p>
-                    {% endif %}
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Not Detected Section -->
-        <div class="table-container">
-            <table class="table">
-                <thead>
-                    <h3 class="tableName">{{ table.tableName }}-NOTdetected</h3>
-                </thead>
-                <tbody>
-                    {% set not_detected = false %}
-                    {% for row in table.rows %}
-                        {% if row.qualitativeResultValue == "NOT DETECTED" %}
-                            <p style="font-size: 14px; font-weight: 400;">*{{ row.biomarkerName }}</p>
-                            {% set not_detected = true %}
-                        {% endif %}
-                    {% endfor %}
-                    {% if not not_detected %}
-                        <p style="font-size: 14px; font-weight: 400;">No detection</p>
-                    {% endif %}
-                </tbody>
-            </table>
-        </div>
+    <div class="table-container" style="width: 738px; display: flex; flex-direction: column; break-inside: avoid; margin-top: 16px;">
+        <table class="table" style="flex-grow: 1; width: 100%; break-inside: avoid;">
+            <thead>
+                <tr>
+                    <th style="width: 50%;">
+                        {{ table.tableName }} Detected
+                    </th>
+                    <th style="background-color: white; border: none;"></th>
+                    <th style="width: 50%;">
+                        {{ table.tableName }} Not Detected
+                    </th>
+                </tr>
+            </thead>
+            <tbody style="flex-grow: 1;">
+                {% set detected_length = table.detected|length %}
+                {% set not_detected_length = table.notDetected|length %}
+                {% set max_length = [detected_length, not_detected_length]|max %}
+                
+                {% for i in range(0, max_length) %}
+                    <tr>
+                        <td style="font-size: 14px; font-weight: 400; padding: 3px 20px; width: 50%; border-bottom: {% if not loop.last %}none{% endif %}; border-top: none;">
+                            {% if detected_length == 0 %}
+                                {% if i == 0 %} No Detection {% endif %}
+                            {% else %}
+                                {% if i < detected_length %}
+                                    <span style="font-size: 16px; margin-right: 4px;">• </span>
+                                    {{ table.detected[i] }}
+                                {% endif %}
+                            {% endif %}
+                        </td>
+                        <td style="border: none;"> </td>
+                        <td style="font-size: 14px; font-weight: 400; padding: 3px 20px; width: 50%; border-bottom: {% if not loop.last %}none{% endif %}; border-top: none;">
+                            {% if not_detected_length == 0 %}
+                                {% if i == 0 %} No Detection {% endif %}
+                            {% else %}
+                                {% if i < not_detected_length %}
+                                    <span style="font-size: 16px; margin-right: 4px;">• </span>
+                                    {{ table.notDetected[i] }}
+                                {% endif %}
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
 {% endfor %}

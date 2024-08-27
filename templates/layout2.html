@@ -17,7 +17,7 @@
         </thead>
         <tbody>
             {% for row in table.rows %}
-               <tr class="">
+               <tr >
                     <td>{{ row.biomarkerName }}</td>
                     <td style="{% if row.fontFormat is defined %}color: {{ row.fontFormat.color }}; font-weight: {{ row.fontFormat.fontWeight }}{% endif %}">{{ row.qualitativeResultValue }}</td>
                     {% if row.reportFormat == "Quantitative" %}

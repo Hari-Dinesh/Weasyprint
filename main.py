@@ -23,7 +23,7 @@ template_mapping = {
 data={
     "password": "05-07-2024",
     "replaceVariables": {
-      "layoutCode": "layout3",
+      "layoutCode": "layout2",
       "patientLastName": "C",
       "patientFirstName": "Wsdi",
       "patientName": "Wsdi C",
@@ -2380,14 +2380,546 @@ data2={
     "logo": "1712121115/logo/52fc2080-fca4-444b-b1f5-510520886a5c-1.jpeg"
   }
 
+data3={
+  "password": "01-01-1970",
+  "replaceVariables": {
+    "layoutCode": "layout3",
+    "patientLastName": "Female patient",
+    "patientFirstName": "Wsdi",
+    "patientName": "Wsdi Female patient",
+    "password": "01-01-1970",
+    "accessionId": "VITD-510563",
+    "patientGender": "female",
+    "patientMobileNumber": "(999) 999-9999",
+    "patientAge": 54,
+    "patientAddress": "EL PASO, , Canutillo, Texas, 79835",
+    "patientId": 1268,
+    "sampleCollectionTime": "13:07",
+    "patientEmailId": "wsdifemalepatient@gmail.com",
+    "sampleResult": {
+      "barcode": {
+        "value": "VITD-510563"
+      },
+      "Vitamin D": {
+        "value": "DETECTED"
+      },
+      "qqqq1": {
+        "value": "VALID"
+      }
+    },
+    "sampleType": "Blood",
+    "orderId": "GK1972",
+    "sampleResultColor": "000000",
+    "finalResultObject": [
+      {
+        "tableName": "pathogen",
+        "rows": [
+          {
+            "testName": "Vitamin D",
+            "resultValue": "DETECTED",
+            "rule": [
+              {
+                "units": "ng/mL",
+                "value1": "7.2",
+                "value2": "41.6",
+                "expression": "-"
+              }
+            ],
+            "fontFormat": {
+              "color": "#F45863",
+              "fontWeight": "bold",
+              "qualitativeResultValue": "-",
+              "borderColor": "#F45863"
+            },
+            "biomarkerName": "Vitamin D",
+            "biomarkerDescription": "Vitamin D is essential in the growth and formation of healthy bones and teeth. Vitamin D also helps regulate levels of calcium, phosphorus and magnesium in the blood",
+            "reportFormat": "Quantitative",
+            "qualitativeResultValue": "-",
+            "biomarkerNote": "",
+            "expectedResults": "positive"
+          }
+        ],
+        "detected": [
+          
+      
+        ],
+        "notDetected": [
+           "Vitamin D",
+           "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+           "Vitamin D",
+           "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+           "Vitamin D",
+           "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+           "Vitamin D",
+           "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+           "Vitamin D",
+           "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+           "Vitamin D",
+           "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D last",
+        ]
+      },
+      {
+        "tableName": "bacteria",
+        "rows": [
+          {
+            "testName": "Vitamin D",
+            "resultValue": "VALID",
+            "rule": [
+                "Vitamin D",
+                "Vitamin D",
+                "Vitamin D",
+                "Vitamin D"
 
+              
+            ],
+            "biomarkerName": "qqqq1",
+            "biomarkerDescription": "",
+            "reportFormat": "Qualitative",
+            "biomarkerNote": "",
+            "expectedResults": ""
+          }
+        ],
+        "detected": [
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D"
+        ],
+        "notDetected": [
+           "Vitamin D"
+        ]
+      },
+      {
+        "tableName": "bacteria",
+        "rows": [
+          {
+            "testName": "Vitamin D",
+            "resultValue": "VALID",
+            "rule": [
+                "Vitamin D",
+                "Vitamin D",
+                "Vitamin D",
+                "Vitamin D"
+
+              
+            ],
+            "biomarkerName": "qqqq1",
+            "biomarkerDescription": "",
+            "reportFormat": "Qualitative",
+            "biomarkerNote": "",
+            "expectedResults": ""
+          }
+        ],
+        "detected": [
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D"
+        ],
+        "notDetected": [
+          "Vitamin D",
+          "Vitamin D",
+          "Vitamin D"
+        ]
+      },
+     {
+        "tableName": "pathogen",
+        "rows": [
+          {
+            "testName": "Vitamin D",
+            "resultValue": "DETECTED",
+            "rule": [
+              {
+                "units": "ng/mL",
+                "value1": "7.2",
+                "value2": "41.6",
+                "expression": "-"
+              }
+            ],
+            "fontFormat": {
+              "color": "#F45863",
+              "fontWeight": "bold",
+              "qualitativeResultValue": "-",
+              "borderColor": "#F45863"
+            },
+            "biomarkerName": "Vitamin D",
+            "biomarkerDescription": "Vitamin D is essential in the growth and formation of healthy bones and teeth. Vitamin D also helps regulate levels of calcium, phosphorus and magnesium in the blood",
+            "reportFormat": "Quantitative",
+            "qualitativeResultValue": "-",
+            "biomarkerNote": "",
+            "expectedResults": "positive"
+          }
+        ],
+        "detected": [
+          "Vitamin D1",
+          "Vitamin D2",
+          "Vitamin D3",
+          "Vitamin D4",
+          "Vitamin D5",
+          "Vitamin D6",
+          "Vitamin D7",
+          "Vitamin D8",
+          "Vitamin D9",
+          "Vitamin D10",
+          "Vitamin D11",
+          "Vitamin D12",
+          "Vitamin D13",
+          "Vitamin D14",
+          "Vitamin D15",
+         
+        ],
+        "notDetected": [
+           
+        ]
+      },
+      
+    ],
+    "testDetails": {
+      "id": 28,
+      "name": "Vitamin D",
+      "code": "VITD",
+      "sampleType": "blood",
+      "sampleCollectionDeviceName": "tube",
+      "sampleQuantity": "1",
+      "description": "An in-depth assessment of your well-being, incorporating lab test results and health questionnaire data.",
+      "createdBy": 2,
+      "isIntakeFormRequired": True,
+      "formId": None,
+      "isStateReportingRequired": False,
+      "stateReporting": None,
+      "isBulkImportRequired": True,
+      "isActive": True,
+      "biomarkerIds": [
+        47,
+        90
+      ],
+      "status": "completed",
+      "chatId": 12,
+      "lastBarcodeCount": None,
+      "resultingMode": "manual upload",
+      "processOverView": None,
+      "kitComponents": None,
+      "kitImages": [
+        "https://sdiprod.blob.core.windows.net/static-images/D2P_STATIC_DATA/lipid.png"
+      ],
+      "questions": None,
+      "videoUrl": None,
+      "kitRedirectUrl": None,
+      "normalPdfTemplatePath": "html-files/VitaminDNormal.html",
+      "abnormalPdfTemplatePath": "html-files/VitaminDAbnormal.html",
+      "testLayoutDetails": [
+        {
+          "layout": "layout2",
+          "disclaimer": "<div><p>Note testing</p></div>",
+          "biomarkerObj": [
+            {
+              "title": "pathogen",
+              "biomarkerIds": [
+                47
+              ],
+              "biomarkerDetails": [
+                {
+                  "id": 47,
+                  "name": "Vitamin D",
+                  "isActive": True,
+                  "code": "VITD",
+                  "sampleType": "blood",
+                  "sampleCollectionDeviceName": "tube",
+                  "description": "Vitamin D is essential in the growth and formation of healthy bones and teeth. Vitamin D also helps regulate levels of calcium, phosphorus and magnesium in the blood",
+                  "reportFormat": "Quantitative",
+                  "status": "completed",
+                  "createdAt": "2024-03-16T09:42:49.702Z",
+                  "createdBy": 2,
+                  "isConfigurationRequired": True,
+                  "biomarkerConfig": [
+                    {
+                      "id": 75,
+                      "biomarkerId": 47,
+                      "gender": "all",
+                      "age": "0-100",
+                      "rules": [
+                        {
+                          "units": "ng/mL",
+                          "value1": "7.2",
+                          "value2": "41.6",
+                          "expression": "-"
+                        }
+                      ],
+                      "expectedResults": "positive",
+                      "biomarkerNotes": "",
+                      "isBiomarkerNoteAvailable": False,
+                      "createdAt": "2024-03-16T09:43:02.066Z",
+                      "updatedAt": "2024-04-10T12:25:32.818Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "bacteria",
+              "biomarkerIds": [
+                90
+              ],
+              "biomarkerDetails": [
+                {
+                  "id": 90,
+                  "name": "qqqq1",
+                  "isActive": True,
+                  "code": "WERT",
+                  "sampleType": "blood",
+                  "sampleCollectionDeviceName": "tube",
+                  "description": "",
+                  "reportFormat": "Qualitative",
+                  "status": "completed",
+                  "createdAt": "2024-05-31T15:51:40.515Z",
+                  "createdBy": 2,
+                  "isConfigurationRequired": False
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "icdCodes": [
+        2,
+        3,
+        4
+      ],
+      "isIcdCodeRequired": True,
+      "createdAt": "2024-04-11T17:27:40.777Z",
+      "updatedAt": "2024-07-03T07:44:31.520Z",
+      "attachments": [
+        
+      ],
+      "createdByDetails": {
+        "id": 2,
+        "prefix": None,
+        "suffix": None,
+        "firstName": "super",
+        "middleName": "",
+        "lastName": "super",
+        "mobileNumber": "0000000000",
+        "secondaryMobileNumber": None,
+        "mobileNumberCode": "super",
+        "faxNumber": "",
+        "addressLine1": "plot no:30g,xyz colony",
+        "addressLine2": "",
+        "dateOfBirth": None,
+        "zipcode": "99821",
+        "state": "alaska",
+        "city": "auke bay",
+        "emailId": "superadmin@gmail.com",
+        "npiNumber": "",
+        "pTanNumber": None,
+        "specialityType": None,
+        "tinNumber": None,
+        "designation": "md",
+        "gender": None,
+        "roleId": 1,
+        "roleObj": {
+          "id": 1,
+          "title": "Super Admin",
+          "code": "superAdmin",
+          "isSdiRole": True
+        },
+        "isSdiUser": True,
+        "isPhysician": False,
+        "taxonomyDetails": None,
+        "isSameAddress": None,
+        "isActive": True,
+        "isEmailVerified": True,
+        "isDeleted": False,
+        "createdBy": 1,
+        "isHybrid": False,
+        "createdAt": "2022-09-29T20:14:23.529Z",
+        "updatedAt": "2022-10-01T07:31:27.488Z"
+      }
+    },
+    "testName": "Vitamin D",
+    "testDescription": "An in-depth assessment of your well-being, incorporating lab test results and health questionnaire data.",
+    "testDisclaimer": "<div><p>Note testing</p></div>",
+    "labCliaNumber": "05D2274791",
+    "labExternalId": "CLF-90008537",
+    "labAddress": "12636 Hoover Street, , Garden grove, California, 92841",
+    "labNumber": "(714) 868-5000",
+    "labEmailId": "support@wisdi.org",
+    "physicianLastName": "Patel",
+    "physicianFirstName": "Kuntal",
+    "physicianName": "Kuntal Patel",
+    "physicianFaxNumber": "-",
+    "physicianAddress": "142 E MAIN ST, , SPARTANBURG, SC, 29306",
+    "physicianNpiNumber": "1467826875",
+    "physicianMobileNumber": "(864) 237-5501",
+    "reportTemplatePath": "html-files/VitaminDNormal.html",
+    "labDirector": "Dr. fan M.d",
+    "sampleReceivedTime": "07:37",
+    "sampleReportedTime": "",
+    "sampleReceivedDate": "08-13-2024",
+    "patientDateOfBirth": "01-01-1970",
+    "sampleCollectionDate": "08-13-2024",
+    "sampleReportedDate": "08-22-2024"
+  },
+  "sampleId": 2054,
+  "orderId": 1972,
+  "source": "web",
+  "sessionValueId": 1769,
+  "testId": 28,
+  "testCode": "VITD",
+  "patientId": 1268,
+  "shouldReply": True,
+  "queueName": "pdfgeneratedresponsejobs",
+  "themeColor": "#f17013ff",
+  "logo": "1712121115/logo/52fc2080-fca4-444b-b1f5-510520886a5c-1.jpeg"
+}
 @app.route('/')
 def index():
     
     template = env.get_template('sdi.html')
         
     # Render the template with data
-    rendered_html = template.render(data=data2).encode(encoding="UTF-8")
+    rendered_html = template.render(data=data3).encode(encoding="UTF-8")
     return rendered_html
 
 @app.route('/print', methods=['POST'])
@@ -2454,7 +2986,7 @@ def print_pdf2():
         template = env.get_template('sdi.html')
         
         # Render the template with data
-        rendered_html = template.render(data=data2).encode(encoding="UTF-8")
+        rendered_html = template.render(data=data3).encode(encoding="UTF-8")
         
         # Create a PDF from the rendered HTML
         pdf = HTML(string=rendered_html, encoding="UTF-8").write_pdf()
@@ -2497,4 +3029,4 @@ def ping():
     return "Ping pong python print service"
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5001)

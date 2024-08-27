@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Report</title>
     <style>
@@ -27,6 +29,9 @@
         #pageFooter {
             position: running(pageFooter);
 
+        }
+        *{
+            font-family: 'Lato', Times, serif;
         }
         
         .address {
@@ -173,7 +178,7 @@
         .table-container {
             border-radius: 8px; /* Adjust the radius as needed */
             overflow: hidden; /* Ensures the rounded corners are applied to the content */
-            border: 1px solid #ddd; /* Border around the container */
+            /*border: 1px solid #ddd;  Border around the container */
         }
 
         .table {
@@ -186,7 +191,7 @@
             border: 1px solid #ddd; /* Light gray border */
             padding: 10px; /* Add padding to cells */
             text-align: left; /* Align text to the left */
-        }
+        } 
 
         .table th {
             background-color: #f2f2f2; /* Light gray background for header cells */
@@ -213,6 +218,16 @@
         }
         .d-flex{
             display: flex;
+            justify-content: space-around;
+        }
+        .lay3-span{
+            font-size: 14px; 
+            font-weight: 700;  
+            display: flex; 
+            height: 75%; 
+            justify-content: center; 
+            align-items: center; 
+            color: black;
         }
     </style>
 </head>
@@ -306,7 +321,7 @@
             {% endif %}
             
             {% if data.replaceVariables.layoutCode == "layout2" %}
-                {% include 'layout2.html' %}
+                {% include 'layout3.html' %}
             {% endif %}
 
             {% if data.replaceVariables.layoutCode == "layout3" %}
